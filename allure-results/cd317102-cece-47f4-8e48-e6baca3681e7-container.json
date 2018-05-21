@@ -1,0 +1,1 @@
+{"uuid":"cd317102-cece-47f4-8e48-e6baca3681e7","name":"Service Now  Test Suite","start":1526810321915,"stop":1526810324376,"children":["c6784653-51a3-4feb-a67e-04478e170439"],"befores":[{"name":"doReportSetup","status":"passed","stage":"finished","description":"","start":1526810321946,"stop":1526810322062}]}

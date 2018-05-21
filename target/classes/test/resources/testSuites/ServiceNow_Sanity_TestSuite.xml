@@ -1,0 +1,34 @@
+<!DOCTYPE suite SYSTEM "http://testng.org/testng-1.0.dtd" >
+<suite name="Service Now  Test Suite">
+ <listeners>
+      <!-- <listener class-name="com.acktinos.tests.CommonTestListener"/> -->
+        <listener class-name="atu.testng.reports.listeners.ATUReportsListener"></listener>
+     <listener class-name="atu.testng.reports.listeners.ConfigurationListener"></listener>
+         <listener class-name="atu.testng.reports.listeners.MethodListener"></listener> 
+    </listeners>
+   
+
+<test name="AdminSanityTestExecution">
+<parameter name="browserType" value="Chrome"></parameter>
+<!--  browser values can be either firefox, ie or Chrome-->
+<parameter name="url" value="https://dev57903.service-now.com"></parameter>
+<parameter name="userName" value="pandeyamit427@gmail.com"></parameter>
+<parameter name="password" value="Email@25"></parameter>
+<parameter name="Adminuser" value="pandeyamit427@gmail.com"></parameter>
+<parameter name="AdminPassword" value="Email@25"></parameter>
+
+	<parameter name="seleniumHost" value="localhost" />
+	<parameter name="seleniumPort" value="4444" />
+	<parameter name="isRunOnRemote" value="false" />
+
+<classes>
+<!-- <class name="com.servicenow.tests.AdminTicketManagementTests"></class> -->
+<class name="com.acktinos.tests.AdminBaseTest"></class>
+
+</classes>
+
+</test>
+
+
+
+</suite>

@@ -1,0 +1,1 @@
+{"uuid":"86cea284-1e51-4f27-aac0-37990a342b88","name":"com.acktinos.tests.CommonTest.getMethodDetails","description":"","start":1526498307236,"stop":1526498307238,"children":["295d7178-bdca-433a-9df6-70e06b88c536"],"afters":[{"name":"getMethodDetails","status":"passed","stage":"finished","description":"","start":1526498307237,"stop":1526498307237}]}

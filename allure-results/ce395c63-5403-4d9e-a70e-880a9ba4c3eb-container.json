@@ -1,0 +1,1 @@
+{"uuid":"ce395c63-5403-4d9e-a70e-880a9ba4c3eb","name":"AdminSanityTestExecution","start":1526841342344,"stop":1526841342735,"children":["48fa64e4-79de-472c-82e1-5f71f1c19c93","9938188a-bf05-49ce-9570-fdf75f4c69ec"],"befores":[{"name":"doReportSetup","status":"passed","stage":"finished","description":"","start":1526841342381,"stop":1526841342404}]}

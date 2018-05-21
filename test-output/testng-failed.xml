@@ -1,0 +1,24 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!DOCTYPE suite SYSTEM "http://testng.org/testng-1.0.dtd">
+<suite thread-count="-1" guice-stage="DEVELOPMENT" name="Failed suite [Service Now  Test Suite]">
+  <listeners>
+    <listener class-name="com.acktinos.tests.CommonTestListener"/>
+  </listeners>
+  <test name="AdminSanityTestExecution(failed)">
+    <parameter name="seleniumPort" value="4444"/>
+    <parameter name="isRunOnRemote" value="false"/>
+    <parameter name="seleniumHost" value="localhost"/>
+    <classes>
+      <class name="com.acktinos.tests.ParentTest">
+        <methods>
+          <include name="getMethodDetails"/>
+          <include name="doReportSetup"/>
+          <include name="UpdateIncident"/>
+          <include name="tearDown"/>
+          <include name="beforeMethodSetup"/>
+          <include name="CreateIncident"/>
+        </methods>
+      </class> <!-- com.acktinos.tests.ParentTest -->
+    </classes>
+  </test> <!-- AdminSanityTestExecution(failed) -->
+</suite> <!-- Failed suite [Service Now  Test Suite] -->

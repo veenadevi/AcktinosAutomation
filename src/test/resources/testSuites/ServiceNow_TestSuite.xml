@@ -1,0 +1,32 @@
+<!DOCTYPE suite SYSTEM "http://testng.org/testng-1.0.dtd" >
+<suite name="Service Now  Test Suite">
+ <listeners>
+     <listener class-name="com.acktinos.tests.CommonTestListener"/>
+   <!--      <listener class-name="atu.testng.reports.listeners.ATUReportsListener"></listener>
+    	 <listener class-name="atu.testng.reports.listeners.ConfigurationListener"></listener>
+         <listener class-name="atu.testng.reports.listeners.MethodListener"></listener>  -->
+    </listeners>
+   
+
+<test name="AdminSanityTestExecution">
+
+
+	<parameter name="seleniumHost" value="localhost" />
+	<parameter name="seleniumPort" value="4444" />
+	<parameter name="isRunOnRemote" value="false" />
+
+<classes>
+<!-- <class name="com.servicenow.tests.AdminTicketManagementTests"></class> -->
+<!-- <class name="com.acktinos.tests.ITILUserTests">
+
+</class>-->
+
+<!-- <class name="com.acktinos.tests.ParentTest"></class>  -->
+
+</classes>
+
+</test>
+
+
+
+</suite>

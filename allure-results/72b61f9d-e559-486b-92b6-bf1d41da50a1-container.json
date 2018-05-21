@@ -1,0 +1,1 @@
+{"uuid":"72b61f9d-e559-486b-92b6-bf1d41da50a1","name":"com.acktinos.tests.ParentTest","start":1526841474497,"stop":1526841474932,"children":["52e546ce-72e9-4e51-8188-a68049870e29","caabb8b2-817b-479e-89cb-34add5df82a3"],"afters":[{"name":"tearDown","status":"passed","stage":"finished","description":"","start":1526841474823,"stop":1526841474823}]}
